@@ -35,6 +35,12 @@ node scripts/validate-skill-links.mjs README.md skills
 npx -y skills-ref validate skills/create-skill
 ```
 
+Run the validator test suites:
+
+```sh
+node --test scripts/*.test.mjs
+```
+
 ## Credits
 
 Repository structure and the validator scripts in `scripts/` are adapted from
