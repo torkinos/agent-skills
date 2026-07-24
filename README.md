@@ -1,0 +1,45 @@
+# Agent Skills
+
+Personal catalog of reusable Agent Skills for coding agents (Claude Code, Codex, Pi, and others).
+
+## Available skills
+
+- `create-skill` — create, review, and improve concise, actionable Agent Skills.
+
+## Structure
+
+Each skill is self-contained under `skills/<name>/`:
+
+```
+skills/<name>/
+├── SKILL.md          # frontmatter routing + post-activation contract
+├── references/       # optional: detailed workflows, schemas, examples
+├── assets/           # optional: reusable templates and output skeletons
+└── scripts/          # optional: deterministic automation
+```
+
+## Install
+
+Once pushed to GitHub (replace `OWNER` with the repository owner):
+
+```sh
+npx skills add OWNER/agent-skills --list
+npx skills add OWNER/agent-skills --skill create-skill
+```
+
+## Validate
+
+```sh
+node scripts/validate-skill-metadata.mjs skills
+node scripts/validate-skill-links.mjs README.md skills
+npx -y skills-ref validate skills/create-skill
+```
+
+## Credits
+
+Repository structure and the validator scripts in `scripts/` are adapted from
+[maxedapps/agent-skills](https://github.com/maxedapps/agent-skills) (MIT).
+
+## License
+
+MIT
