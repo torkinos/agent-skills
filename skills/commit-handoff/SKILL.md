@@ -64,7 +64,7 @@ Types: `feat`, `fix`, `refactor`, `perf`, `docs`, `test`, `build`, `ci`, `chore`
 
 | Signal | Threshold |
 | --- | --- |
-| Size | More than roughly 400 changed lines or 15 files, excluding lockfiles, generated output, and vendored code. |
+| Size | More than roughly 600 changed lines or 20 files, excluding lockfiles, generated output, and vendored code. |
 | Mixed concerns | Two or more of feature, refactor, bug fix, formatting, dependency bump, or config change in one branch. |
 | Unrelated subsystems | Areas that need not ship together and share no reviewer. |
 | Review load | A reviewer would have to hold more than one mental model at once to judge it. |
