@@ -7,6 +7,7 @@ Personal catalog of reusable Agent Skills for coding agents (Claude Code, Codex,
 - `create-skill` — create, review, and improve concise, actionable Agent Skills.
 - `clean-as-you-go` — remove superseded and dead code as part of every change; never leave legacy behind.
 - `use-subagents` — split, assign, isolate, verify, and clean up subagent lanes on any harness.
+- `fresh-eyes-review` — review finished work with an independent agent, then triage the findings with reasons.
 
 ## Structure
 
