@@ -5,6 +5,7 @@ Personal catalog of reusable Agent Skills for coding agents (Claude Code, Codex,
 ## Available skills
 
 - `create-skill` — create, review, and improve concise, actionable Agent Skills.
+- `clean-as-you-go` — remove superseded and dead code as part of every change; never leave legacy behind.
 
 ## Structure
 
