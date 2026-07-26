@@ -6,6 +6,7 @@ Personal catalog of reusable Agent Skills for coding agents (Claude Code, Codex,
 
 - `create-skill` — create, review, and improve concise, actionable Agent Skills.
 - `clean-as-you-go` — remove superseded and dead code as part of every change; never leave legacy behind.
+- `use-subagents` — split, assign, isolate, verify, and clean up subagent lanes on any harness.
 
 ## Structure
 
@@ -44,7 +45,8 @@ node --test scripts/*.test.mjs
 
 ## Credits
 
-Repository structure and the validator scripts in `scripts/` are adapted from
+Repository structure, the validator scripts in `scripts/`, and the `create-skill`
+and `use-subagents` skills are adapted from
 [maxedapps/agent-skills](https://github.com/maxedapps/agent-skills) (MIT).
 
 ## License
