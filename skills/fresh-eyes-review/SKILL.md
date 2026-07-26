@@ -76,6 +76,6 @@ Confidence is **Confirmed** when the reviewer read the code path or ran the chec
 
 ## Constraints
 
-- This is self-verification of work just produced. Reviewing code you did not write, as a deliverable for someone else, is a different job with a different output.
+- This is self-verification of work just produced. Reviewing code you did not write, such as an inbound pull request, is `pr-review`: a different job with a different output.
 - Do not let the review become a redesign. Architecture-level findings are deferred or escalated, never acted on inline.
 - Do not run the loop to manufacture confidence on work you already know is unverified. Run the tests first; a reviewer is not a substitute for checks you skipped.

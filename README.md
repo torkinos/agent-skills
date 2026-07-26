@@ -8,6 +8,7 @@ Personal catalog of reusable Agent Skills for coding agents (Claude Code, Codex,
 - `clean-as-you-go` — remove superseded and dead code as part of every change; never leave legacy behind.
 - `use-subagents` — split, assign, isolate, verify, and clean up subagent lanes on any harness.
 - `fresh-eyes-review` — review finished work with an independent agent, then triage the findings with reasons.
+- `pr-review` — review a linked pull request and return prioritized, paste-ready comments; never posts.
 
 ## Structure
 
